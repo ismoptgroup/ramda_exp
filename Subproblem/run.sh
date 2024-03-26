@@ -1,0 +1,16 @@
+python prepare.py
+
+bash ProxAdamW_100_Lin_on_MNIST_EarlyStopping.sh &
+bash ProxAdamW_100_Lin_on_MNIST_NoEarlyStopping.sh &
+bash RAMDA_100_Lin_on_MNIST_EarlyStopping.sh &
+bash RAMDA_100_Lin_on_MNIST_NoEarlyStopping.sh &
+
+bash ProxAdamW_100_VGG19_on_CIFAR10_EarlyStopping.sh &
+bash ProxAdamW_100_VGG19_on_CIFAR10_NoEarlyStopping.sh &
+bash RAMDA_100_VGG19_on_CIFAR10_EarlyStopping.sh &
+bash RAMDA_100_VGG19_on_CIFAR10_NoEarlyStopping.sh &
+
+bash ProxAdamW_100_ResNet50_on_CIFAR100_EarlyStopping.sh &
+bash ProxAdamW_100_ResNet50_on_CIFAR100_NoEarlyStopping.sh &
+bash RAMDA_100_ResNet50_on_CIFAR100_EarlyStopping.sh &
+bash RAMDA_100_ResNet50_on_CIFAR100_NoEarlyStopping.sh 
